@@ -2,7 +2,6 @@ package com.eventos.modals;
 
 import java.io.Serializable;
 import java.util.Objects;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -91,6 +90,5 @@ public class Eventos implements Serializable {
 		Eventos other = (Eventos) obj;
 		return Objects.equals(id, other.id);
 	}
-	
 	
 }
